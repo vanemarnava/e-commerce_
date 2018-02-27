@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.Header {
+  background-color: #222;
+  height: 20em;
+  padding: 2em;
+  color: white;
+}
+
+.Logo img {
+  height: 4em;
+  width: auto;
+  display: inline-block;
+}
+
+.form-control{
+	display: inline-block;
+}
+
+.btn{
+	display: inline-block;	
+}
+
+.Menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.Menu li{
+	display: inline-block;
+	padding-right: 10px; 
+}
+
+.Menu li a{
+	display: inline-block;
+	padding-right: 10px; 
+	color: #CCC;
+	text-decoration: none;
+}
+
+.Menu li a:hover{
+	color: #fff;
+}
